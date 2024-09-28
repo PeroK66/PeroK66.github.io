@@ -59,7 +59,7 @@
   }
   let load = select("button#load"); let forone = select("button#forone");
   load.onclick = function () {
-    fetch("cet6.txt")
+    fetch('cet6.txt')
       .then(res => res.text())
       .then(txt => cet6string = txt);
   }
